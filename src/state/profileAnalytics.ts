@@ -1,4 +1,4 @@
 export interface ProfileAnalytics  {
-    profileViews: number,
-    postImpressions: number,
+    profileViews: number;
+    postImpressions: number;
 }
