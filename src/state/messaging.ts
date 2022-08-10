@@ -14,4 +14,5 @@ export interface ConversationPreview {
 export interface MessagingState {
     drafts: MessageDraft[];
     conversations: ConversationPreview[];
+    loading: boolean;
 }

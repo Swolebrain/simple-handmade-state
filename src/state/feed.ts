@@ -36,4 +36,5 @@ export interface Post extends SimplePost {
 export interface FeedState {
     newPostsAlert: boolean;
     activity: Post[];
+    loading: boolean;
 }
